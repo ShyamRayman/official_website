@@ -1,0 +1,95 @@
+
+  .containertwo h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 35px;
+    margin-bottom: 25px;
+  }
+  
+  .containertwo .servicesgame {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  
+  .containertwo .servicesgame .card {
+    width: 350px;
+    text-align: center;
+    background: #fff;
+    padding: 20px 15px;
+    margin-bottom: 30px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-right: 20px;
+    border: none;
+    transform: translateX(-100%);
+    opacity: 0;
+    transition: transform 1s ease, opacity 1s ease;
+  }
+  
+  .containertwo .servicesgame .card.show-animation {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  
+  /* .containertwo .servicesgame .card:hover {
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  } */
+  
+  .containertwo .servicesgame .card .content {
+    transition: 0.3s;
+  }
+  
+  .containertwo .servicesgame .card:hover .content {
+    transform: scale(1.07);
+  }
+  
+  .containertwo .servicesgame .card .content .iconsGame {
+    padding: 5px 0;
+    color: white;
+  }
+  
+  .containertwo .servicesgame .card:hover .content .title {
+    color: #b52f94;
+  }
+  
+  .containertwo .servicesgame .card .content .title {
+    padding: 5px 0;
+    font-size: 18px;
+    font-weight: 500;
+    color: #b52f94;
+    transition: 0.3s;
+  }
+  
+  .iconsGame img {
+    max-width: 300px;
+    max-height: 250px;
+    border-radius: 20px;
+  }
+  
+  p {
+    font-size: 10px;
+  }
+
+  span{
+    font-size: 12px;
+  }
+  
+  .NumberBoxone {
+    background: linear-gradient(
+      90deg,
+      rgba(223, 96, 162, 1) 14%,
+      rgba(177, 42, 148, 1) 89%
+    );
+    color: #fff;
+    width: 100px;
+    border-radius: 15px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 100px;
+  }
+  

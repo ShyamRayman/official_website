@@ -1,0 +1,58 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css");
+
+
+small {
+  font-size: 13px;
+}
+
+.imageshere {
+  width: 50px;
+}
+
+
+.action-icon {
+  width: 50px;
+}
+
+.custom-footer {
+  animation-duration: 1s;
+}
+
+.icon-hover {
+  transition: transform 0.3s;
+}
+
+.icon-hover:hover {
+  color: #4caf50;
+  transform: scale(1.9);
+}
+
+.animate__animated.animate__slideInLeft {
+  animation-duration: 1s;
+}
+
+.animate__animated.animate__slideInRight {
+  animation-duration: 1s;
+}
+
+.animate__animated.animate__slideInUp {
+  animation-duration: 1s;
+}
+
+.custom-col {
+  opacity: 0;
+  animation: fadeIn 2s forwards;
+  animation-delay: 1s;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+
+.custom-col .join-now {
+  opacity: 0;
+  animation: fadeIn 2s forwards;
+  animation-delay: 2s;
+}

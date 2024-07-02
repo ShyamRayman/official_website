@@ -1,0 +1,102 @@
+.containerone h2 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 35px;
+  margin-bottom: 25px;
+}
+
+.containerone .servicesworking {
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.containerone .servicesworking .card {
+  width: 250px;
+  text-align: center;
+  background: #fff;
+  padding: 20px 15px;
+  margin-bottom: 30px;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: 0.3s;
+  margin-right:20px;
+}
+
+.containerone .servicesworking .card:hover {
+  /* background: blueviolet; */
+  /* background: #B52F94; */
+  /* background: #df79ae; */
+  /* background: rgb(223, 96, 162);
+    background: linear-gradient(
+      90deg,
+      rgba(223, 96, 162, 1) 10%,
+      rgba(177, 42, 148, 1) 68%
+    ); */
+
+  /* background: rgb(223, 96, 162);
+  background: linear-gradient(
+    90deg,
+    rgba(223, 96, 162, 1) 44%,
+    rgba(177, 42, 148, 1) 89%
+  ); */
+  /* color: #000; */
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.containerone .servicesworking .card .content {
+  transition: 0.3s;
+}
+
+.containerone .servicesworking .card:hover .content {
+  transform: scale(1.07);
+}
+
+.containerone .servicesworking .card .content .icons {
+  padding: 5px 0;
+  color: white;
+}
+
+.containerone .servicesworking .card:hover .content .title {
+  /* color: white; */
+  color: #b52f94;
+}
+
+.containerone .servicesworking .card .content .title {
+  padding: 5px 0;
+  font-size: 18px;
+  font-weight: 500;
+  /* color: blueviolet; */
+  color: #b52f94;
+  transition: 0.3s;
+}
+
+.icons img { 
+  width: 150px;
+}
+
+.iconss img { 
+    max-width: 100px;
+  }
+
+.titlehere p{
+    font-size:15px;
+}
+
+.NumberBox{
+    /* background: #b52f94; */
+    background: linear-gradient(
+        90deg,
+        rgba(223, 96, 162, 1) 14%,
+        rgba(177, 42, 148, 1) 89%
+      ); 
+    color: #fff;
+    width:30px;
+    height:30px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 100px;
+}

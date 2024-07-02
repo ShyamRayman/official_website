@@ -1,0 +1,73 @@
+.containerone h2 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 35px;
+  margin-bottom: 25px;
+}
+
+.containerone .services {
+  justify-content: space-around;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.containerone .services .card {
+  width: 250px;
+  text-align: center;
+  background: #fff;
+  padding: 20px 15px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.containerone .services .card:hover {
+  /* background: blueviolet; */
+  /* background: #B52F94; */
+  /* background: #df79ae; */
+  /* background: rgb(223, 96, 162);
+  background: linear-gradient(
+    90deg,
+    rgba(223, 96, 162, 1) 10%,
+    rgba(177, 42, 148, 1) 68%
+  ); */
+
+  background: rgb(223,96,162);
+background: linear-gradient(90deg, rgba(223,96,162,1) 44%, rgba(177,42,148,1) 89%);
+}
+
+.containerone .services .card .content {
+  transition: 0.3s;
+}
+
+.containerone .services .card:hover .content {
+  transform: scale(1.07);
+}
+
+.containerone .services .card .content .icon {
+  padding: 5px 0;
+  color: white;
+}
+
+.containerone .services .card .content .icon i {
+  font-size: 40px;
+}
+
+.containerone .services .card:hover .content .title {
+  color: white;
+}
+
+.containerone .services .card .content .title {
+  padding: 5px 0;
+  font-size: 18px;
+  font-weight: 500;
+  /* color: blueviolet; */
+  color: #b52f94;
+  transition: 0.3s;
+}
+
+.icon img {
+  width: 50px;
+}

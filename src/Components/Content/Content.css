@@ -1,0 +1,45 @@
+@media (min-width: 900px) {
+  /* .Content-1{
+         margin-left: 20px;
+      } */
+
+  /* .image-1{
+          width: 300px;
+      } */
+}
+
+.image-1 img {
+  width: 500px;
+}
+
+@media all and (max-width: 1200px) {
+  img {
+    width: 450px;
+    margin-top: 20px;
+  }
+}
+
+@media all and (max-width: 600px) {
+  img {
+    width: 400px;
+    margin-top: 20px;
+  }
+}
+
+@media all and (max-width: 450px) {
+  img {
+    width: 350px;
+  }
+}
+
+@media all and (max-width: 400px) {
+  img {
+    width: 300px;
+  }
+}
+
+@media all and (max-width: 350px) {
+  img {
+    width: 230px;
+  }
+}
